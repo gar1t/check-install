@@ -9,8 +9,11 @@ Use:
 
     $ python check_pip_install.py [options] <requirement specifier>
 
-where `<requirement specifier>` is a Python package (aka PyPI
-*project*) with optional version specifier.
+`<requirement specifier>` is a Python package (aka PyPI *project*)
+with optional version specifier.
+
+`[options]` are options that apply to `pip install`. For help with
+available options, run `pip install --help`.
 
 This script prints the following information to stdout:
 
